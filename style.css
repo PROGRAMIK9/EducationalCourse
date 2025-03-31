@@ -38,7 +38,6 @@ body {
 }
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px;
     padding: 20px;
@@ -51,7 +50,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    width: 100%;
+    width: 100vw;
 }
 button {
     padding: 10px 20px;
