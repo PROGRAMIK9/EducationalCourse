@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="educational.html">Educational Courses</a>
+        <a href="certificate.html">Certificate Courses</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Educational Courses</h2>
+            <p>Explore our range of educational courses to enhance your knowledge in various fields like Science, Mathematics, and Literature.</p>
+            <button onclick="navigate('educational.html')">View Courses</button>
+        </div>
+        <div class="section">
+            <h2>Certificate Courses</h2>
+            <p>Get certified with our professional courses in Web Development, Data Science, and Digital Marketing.</p>
+            <button onclick="navigate('certificate.html')">View Certificates</button>
+        </div>
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are committed to providing high-quality education and skill-based learning to help you succeed in your career.</p>
+            <button onclick="navigate('about.html')">About Us</button>
+        </div>
+    </div>
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
